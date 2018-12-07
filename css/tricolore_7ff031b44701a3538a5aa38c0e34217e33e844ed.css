@@ -1,0 +1,114 @@
+/* Ported from Rainbow tricolore theme*/
+
+.CodeMirror.CodeMirror-pre-rendered {
+  height: auto;
+  padding: 10px;
+  font-family: 'Monaco', 'Consolas', monospace;
+  margin: 0 0 20px 0;
+}
+
+.cm-s-tricolore.CodeMirror {
+  background: #fff;
+  color: #000;
+}
+
+.cm-s-tricolore .CodeMirror-selected {
+  background: #253B76 !important;
+}
+
+.cm-s-tricolore .CodeMirror-gutters {
+  background: #fff;
+  border-right: 0;
+}
+
+.cm-s-tricolore .CodeMirror-linenumber {
+  color: #888;
+}
+
+.cm-s-tricolore .CodeMirror-cursor {
+  border-left: 1px solid #A7A7A7 !important;
+}
+
+.cm-s-tricolore .cm-keyword {
+  color: #0000A1;
+}
+
+.cm-s-tricolore .cm-atom {
+  color: #18838A;
+}
+
+.cm-s-tricolore .cm-number {
+  color: #18838A;
+}
+
+.cm-s-tricolore .cm-def {
+  color: #8DA6CE;
+}
+
+
+
+.cm-s-tricolore .cm-qualifier {
+  color: #3E853F;
+}
+
+.cm-s-tricolore .cm-property {
+  color: #192140;
+}
+
+
+
+.cm-s-tricolore .cm-comment {
+  color: #7E7E7E;
+  font-style: italic;
+}
+
+.cm-s-tricolore .cm-string {
+  color: #8E0022;
+}
+
+.cm-s-tricolore .cm-string-2 {
+  color: #8E0022;
+}
+
+.cm-s-tricolore .cm-meta {
+  color: #D8FA3C;
+}
+
+.cm-s-tricolore .cm-builtin {
+  color: #0000A1;
+}
+
+.cm-s-tricolore .cm-tag {
+  color: #192140;
+}
+
+.cm-s-tricolore .cm-attribute {
+  color: #192140;
+}
+
+.cm-s-tricolore .cm-header {
+  color: #FF6400;
+}
+
+.cm-s-tricolore .cm-hr {
+  color: #AEAEAE;
+}
+
+.cm-s-tricolore .cm-link {
+  color: #8DA6CE;
+}
+
+.cm-s-tricolore .cm-error {
+  background: #9D1E15;
+  color: #c5c8c6;
+}
+
+.cm-s-tricolore .CodeMirror-activeline-background {
+  background: #3C3636 !important;
+  color: #c5c8c6;
+}
+
+.cm-s-tricolore .CodeMirror-matchingbracket {
+  outline: 1px solid grey;
+  color: white !important;
+}
